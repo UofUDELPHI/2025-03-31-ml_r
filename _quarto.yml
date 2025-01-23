@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+  render: 
+    - index.qmd
+
+website:
+  title: "Machine Learning with R"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+        
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+
+

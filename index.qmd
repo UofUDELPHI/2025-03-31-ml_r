@@ -1,0 +1,92 @@
+---
+title: "Machine Learning with R"
+subtitle: "University of Utah"
+---
+
+[![](DELPHI-long.png)](https://uofuhealth.utah.edu/delphi-data-science-initiative)
+
+
+::: {.callout-note appearance="simple" icon=false}
+**Date**: Monday March 31 - Tuesday April 1, 2025
+
+**Time**: 9:00 am -- 4:00 pm MDT
+
+**Location**: HELIX Rm - GS150 - Chokecherry
+
+**Instructors**: Rebecca Barter
+:::
+
+**Registration**: Use the [following link](https://docs.google.com/forms/d/e/1FAIpQLSdv5hYtDZz_vVQi3es6XI2Uzxf25S_LhCe485Fd_A6ekGDadQ/viewform) to sign up for this workshop.
+
+[**Sign up for the DELPHI mailing list**](https://www.lists.utah.edu/wws/subscribe/delphi?previous_action=info) to stay in the loop about future workshops and funding opportunities.
+
+## General Information
+
+**What**: This workshop provides a practical introduction to foundational machine learning algorithms, including linear regression, random forest, and XGBoost, with hands-on applications and best practices using tidymodels in R. Note that this workshop will NOT cover Large Language Models (LLMs) and while it may touch on Neural Network (NN)/Deep Learning models briefly at the end of the workshop, these will not be the focus.
+
+**Who**: This workshop is designed for researchers, staff, and students who want to gain experience using machine learning techniques in practice in the R programming language. 
+
+**Prerequisites**: Participants should be familiar with the basics of the R programming language, including the tidyverse. Participants do *not* need to have any previous machine learning, statistical or mathematical experience to attend this workshop.
+
+**Requirements**: Participants must bring a laptop onto which they can [download R and Rstudio](https://posit.co/download/rstudio-desktop/) (and you should do so before the workshop).
+
+**Contact**: Please email andrew.george@hsc.utah.edu and rebecca.barter@hsc.utah.edu for more information.
+
+
+
+## Resources
+
+
+### Posit Cloud
+
+A Posit Cloud workspace will be set up prior to the workshop for those who cannot (or prefer not to) install applications on their laptop.
+
+
+### Download files and data
+
+All relevant files will be provided here prior to the workshop.
+
+<!-- If you are working in RStudio locally (rather than using posit cloud, above) [click here](content.zip "download")XXXXXXX to download all of the .qmd files and data files we will be using throughout the workshop. -->
+
+
+## Schedule
+
+Note that the schedule below serves as a guideline. The start, end, and break times are fixed, but timing for each topics covered may vary as we may go faster or slower through the content.
+
+**Note that morning snacks and lunch will be provided on both days**.
+
+
+
+### Day 1
+
+
+| Time  | Topic     | Content |
+| ----:|:----|:---------------|
+| 9:00   | Introduction to Prediction Problems |   slides, code |
+| 9:45   | Linear Regression for Continuous Responses | slides, code |
+| 10:30   | [Break] |   |   
+| 10:45   | Evaluating Continuous Response Predictions |
+| 11:15  | Logistic Regression for Binary Responses |  slides, code |
+| 12:00  | [Lunch] | |    
+| 1:00   | Evaluating Binary Response Predictions |
+| 1:45   | Feature Engineering and Feature Selection | slides, code |
+| 2:30   | [Break] | |    
+| 2:45   | Regularization with Lasso and Ridge |
+| 4:00   | [End] |  |  
+ 
+
+
+### Day 2
+
+
+| Time   | Topic           | Content
+| ----:|:----|:---------------|
+| 9:00    | Decision Trees and Random Forest |  slides, code |
+| 10:30   | [Break] |   | 
+| 10:45    | XGBoost  | slides, code |
+| 12:00   | [Lunch] |   |   
+| 1:00   | Cross Validation and Parameter Tuning | slides, code | 
+| 2:30   | [Break] |   |   
+| 2:45   | Class Imbalance  | slides, code |
+| 3:15   | Basic Neural Networks | slides, code |
+| 4:00  | [End] |   |   

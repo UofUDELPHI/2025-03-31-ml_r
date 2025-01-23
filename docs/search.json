@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Machine Learning with R",
+    "section": "",
+    "text": "Registration: Use the following link to sign up for this workshop.\nSign up for the DELPHI mailing list to stay in the loop about future workshops and funding opportunities."
+  },
+  {
+    "objectID": "index.html#general-information",
+    "href": "index.html#general-information",
+    "title": "Machine Learning with R",
+    "section": "General Information",
+    "text": "General Information\nWhat: This workshop provides a practical introduction to foundational machine learning algorithms, including linear regression, random forest, and XGBoost, with hands-on applications and best practices using tidymodels in R. Note that this workshop will NOT cover Large Language Models (LLMs) and while it may touch on Neural Network (NN)/Deep Learning models briefly at the end of the workshop, these will not be the focus.\nWho: This workshop is designed for researchers, staff, and students who want to gain experience using machine learning techniques in practice in the R programming language.\nPrerequisites: Participants should be familiar with the basics of the R programming language, including the tidyverse. Participants do not need to have any previous machine learning, statistical or mathematical experience to attend this workshop.\nRequirements: Participants must bring a laptop onto which they can download R and Rstudio (and you should do so before the workshop).\nContact: Please email andrew.george@hsc.utah.edu and rebecca.barter@hsc.utah.edu for more information."
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Machine Learning with R",
+    "section": "Resources",
+    "text": "Resources\n\nPosit Cloud\nA Posit Cloud workspace will be set up prior to the workshop for those who cannot (or prefer not to) install applications on their laptop.\n\n\nDownload files and data\nAll relevant files will be provided here prior to the workshop."
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Machine Learning with R",
+    "section": "Schedule",
+    "text": "Schedule\nNote that the schedule below serves as a guideline. The start, end, and break times are fixed, but timing for each topics covered may vary as we may go faster or slower through the content.\nNote that morning snacks and lunch will be provided on both days.\n\nDay 1\n\n\n\nTime\nTopic\nContent\n\n\n\n\n9:00\nIntroduction to Prediction Problems\nslides, code\n\n\n9:45\nLinear Regression for Continuous Responses\nslides, code\n\n\n10:30\n[Break]\n\n\n\n10:45\nEvaluating Continuous Response Predictions\n\n\n\n11:15\nLogistic Regression for Binary Responses\nslides, code\n\n\n12:00\n[Lunch]\n\n\n\n1:00\nEvaluating Binary Response Predictions\n\n\n\n1:45\nFeature Engineering and Feature Selection\nslides, code\n\n\n2:30\n[Break]\n\n\n\n2:45\nRegularization with Lasso and Ridge\n\n\n\n4:00\n[End]\n\n\n\n\n\n\nDay 2\n\n\n\nTime\nTopic\nContent\n\n\n\n\n9:00\nDecision Trees and Random Forest\nslides, code\n\n\n10:30\n[Break]\n\n\n\n10:45\nXGBoost\nslides, code\n\n\n12:00\n[Lunch]\n\n\n\n1:00\nCross Validation and Parameter Tuning\nslides, code\n\n\n2:30\n[Break]\n\n\n\n2:45\nClass Imbalance\nslides, code\n\n\n3:15\nBasic Neural Networks\nslides, code\n\n\n4:00\n[End]"
+  }
+]
