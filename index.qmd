@@ -39,14 +39,13 @@ subtitle: "University of Utah"
 
 ### Posit Cloud
 
-A Posit Cloud workspace will be set up prior to the workshop for those who cannot (or prefer not to) install applications on their laptop.
+A Posit Cloud workspace will be set up prior to the workshop for those who cannot (or prefer not to) install applications on their laptop. Check back before the workshop for the link to the workspace.
 
 
 ### Download files and data
 
-All relevant files will be provided here prior to the workshop.
 
-<!-- If you are working in RStudio locally (rather than using posit cloud, above) [click here](content.zip "download")XXXXXXX to download all of the .qmd files and data files we will be using throughout the workshop. -->
+If you are working in RStudio locally (rather than using posit cloud, above) [click here](content.zip "download") to download all of the .R code scripts and data files we will be using throughout the workshop. 
 
 
 ## Schedule
@@ -62,16 +61,18 @@ Note that the schedule below serves as a guideline. The start, end, and break ti
 
 | Time  | Topic     | Content |
 | ----:|:----|:---------------|
-| 9:00   | Introduction to Prediction Problems |   slides, code |
-| 9:45   | Linear Regression for Continuous Responses | slides, code |
+| 9:00   | Introduction to Prediction Problems |   [01_intro.pdf](content/slides/01_intro.pdf) |
+| 9:30   | Linear Regression for Continuous Responses | [02_linear_regression.pdf](content/slides/02_linear_regression.pdf) |
+| 10:00   | Evaluating Continuous Response Predictions | [02_linear_regression.pdf](content/slides/02_linear_regression.pdf) |
 | 10:30   | [Break] |   |   
-| 10:45   | Evaluating Continuous Response Predictions |
-| 11:15  | Logistic Regression for Binary Responses |  slides, code |
-| 12:00  | [Lunch] | |    
-| 1:00   | Evaluating Binary Response Predictions |
-| 1:45   | Feature Engineering and Feature Selection | slides, code |
+| 10:45   | [Coding Session] Linear Regression for Continuous Responses | <02_linear_regression.R> |
+| 11:30   | Data Preprocessing | [03_data_preprocessing.pdf](content/slides/03_data_preprocessing.pdf) |
+| 12:00  | [Lunch] | |     |
+| 1:00   | [Coding Session] Data Preprocessing | <03_data_preprocessing.R> |
+| 1:45   | Logistic Regression for Predicting Binary Responses | [04_binary_Responses.pdf](content/slides/04_binary_responses.pdf) |
+| 2:00   | Evaluating Binary Responses Predictions | [04_binary_Responses.pdf](content/slides/04_binary_responses.pdf) |
 | 2:30   | [Break] | |    
-| 2:45   | Regularization with Lasso and Ridge |
+| 2:45   | [Coding Session] Logistic Regression and Evaluation Binary Response Predictions | <04_binary_Responses.R> |
 | 4:00   | [End] |  |  
  
 
@@ -81,12 +82,15 @@ Note that the schedule below serves as a guideline. The start, end, and break ti
 
 | Time   | Topic           | Content
 | ----:|:----|:---------------|
-| 9:00    | Decision Trees and Random Forest |  slides, code |
+| 9:00    | Decision Trees and Random Forest |  [05_decision_trees.pdf](content/slides/05_decision_trees.pdf) |
+| 10:00    | XGBoost  | [05_decision_trees.pdf](content/slides/05_decision_trees.pdf) |
+| 10:15    | Variable Importance  | [05_decision_trees.pdf](content/slides/05_decision_trees.pdf) |
 | 10:30   | [Break] |   | 
-| 10:45    | XGBoost  | slides, code |
+| 10:15    | [Coding Session] Decision Tree Algorithms | <05_decision_trees.R> |
 | 12:00   | [Lunch] |   |   
-| 1:00   | Cross Validation and Parameter Tuning | slides, code | 
+| 1:00   | Hyperparameter Tuning | [06_hyperparameter_tuning.pdf](content/slides/06_hyperparameter_tuning.pdf) | 
+| 1:30   | [Coding Session] Hyperparameter Tuning | <06_hyperparameter_tuning.R> | 
 | 2:30   | [Break] |   |   
-| 2:45   | Class Imbalance  | slides, code |
-| 3:15   | Basic Neural Networks | slides, code |
+| 2:45   | Basic Neural Networks | [07_nn.pdf](content/slides/07_nn.pdf) |
+| 3:00   | [Coding Session] Basic Neural Networks | <07_nn.R> |
 | 4:00  | [End] |   |   

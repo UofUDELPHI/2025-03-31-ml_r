@@ -173,12 +173,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
 <section id="posit-cloud" class="level3">
 <h3 class="anchored" data-anchor-id="posit-cloud">Posit Cloud</h3>
-<p>A Posit Cloud workspace will be set up prior to the workshop for those who cannot (or prefer not to) install applications on their laptop.</p>
+<p>A Posit Cloud workspace will be set up prior to the workshop for those who cannot (or prefer not to) install applications on their laptop. Check back before the workshop for the link to the workspace.</p>
 </section>
 <section id="download-files-and-data" class="level3">
 <h3 class="anchored" data-anchor-id="download-files-and-data">Download files and data</h3>
-<p>All relevant files will be provided here prior to the workshop.</p>
-<!-- If you are working in RStudio locally (rather than using posit cloud, above) [click here](content.zip "download")XXXXXXX to download all of the .qmd files and data files we will be using throughout the workshop. -->
+<p>If you are working in RStudio locally (rather than using posit cloud, above) <a href="content.zip" title="download">click here</a> to download all of the .R code scripts and data files we will be using throughout the workshop.</p>
 </section>
 </section>
 <section id="schedule" class="level2">
@@ -199,42 +198,52 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td style="text-align: right;">9:00</td>
 <td style="text-align: left;">Introduction to Prediction Problems</td>
-<td style="text-align: left;">slides, code</td>
+<td style="text-align: left;"><a href="content/slides/01_intro.pdf">01_intro.pdf</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">9:45</td>
+<td style="text-align: right;">9:30</td>
 <td style="text-align: left;">Linear Regression for Continuous Responses</td>
-<td style="text-align: left;">slides, code</td>
+<td style="text-align: left;"><a href="content/slides/02_linear_regression.pdf">02_linear_regression.pdf</a></td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">10:00</td>
+<td style="text-align: left;">Evaluating Continuous Response Predictions</td>
+<td style="text-align: left;"><a href="content/slides/02_linear_regression.pdf">02_linear_regression.pdf</a></td>
+</tr>
+<tr class="even">
 <td style="text-align: right;">10:30</td>
 <td style="text-align: left;">[Break]</td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: right;">10:45</td>
-<td style="text-align: left;">Evaluating Continuous Response Predictions</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">[Coding Session] Linear Regression for Continuous Responses</td>
+<td style="text-align: left;">&lt;02_linear_regression.R&gt;</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">11:30</td>
+<td style="text-align: left;">Data Preprocessing</td>
+<td style="text-align: left;"><a href="content/slides/03_data_preprocessing.pdf">03_data_preprocessing.pdf</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">11:15</td>
-<td style="text-align: left;">Logistic Regression for Binary Responses</td>
-<td style="text-align: left;">slides, code</td>
-</tr>
-<tr class="even">
 <td style="text-align: right;">12:00</td>
 <td style="text-align: left;">[Lunch]</td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: right;">1:00</td>
-<td style="text-align: left;">Evaluating Binary Response Predictions</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">[Coding Session] Data Preprocessing</td>
+<td style="text-align: left;">&lt;03_data_preprocessing.R&gt;</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1:45</td>
+<td style="text-align: left;">Logistic Regression for Predicting Binary Responses</td>
+<td style="text-align: left;"><a href="content/slides/04_binary_responses.pdf">04_binary_Responses.pdf</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">1:45</td>
-<td style="text-align: left;">Feature Engineering and Feature Selection</td>
-<td style="text-align: left;">slides, code</td>
+<td style="text-align: right;">2:00</td>
+<td style="text-align: left;">Evaluating Binary Responses Predictions</td>
+<td style="text-align: left;"><a href="content/slides/04_binary_responses.pdf">04_binary_Responses.pdf</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">2:30</td>
@@ -243,8 +252,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: right;">2:45</td>
-<td style="text-align: left;">Regularization with Lasso and Ridge</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">[Coding Session] Logistic Regression and Evaluation Binary Response Predictions</td>
+<td style="text-align: left;">&lt;04_binary_Responses.R&gt;</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">4:00</td>
@@ -268,7 +277,17 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td style="text-align: right;">9:00</td>
 <td style="text-align: left;">Decision Trees and Random Forest</td>
-<td style="text-align: left;">slides, code</td>
+<td style="text-align: left;"><a href="content/slides/05_decision_trees.pdf">05_decision_trees.pdf</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10:00</td>
+<td style="text-align: left;">XGBoost</td>
+<td style="text-align: left;"><a href="content/slides/05_decision_trees.pdf">05_decision_trees.pdf</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10:15</td>
+<td style="text-align: left;">Variable Importance</td>
+<td style="text-align: left;"><a href="content/slides/05_decision_trees.pdf">05_decision_trees.pdf</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">10:30</td>
@@ -276,9 +295,9 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">10:45</td>
-<td style="text-align: left;">XGBoost</td>
-<td style="text-align: left;">slides, code</td>
+<td style="text-align: right;">10:15</td>
+<td style="text-align: left;">[Coding Session] Decision Tree Algorithms</td>
+<td style="text-align: left;">&lt;05_decision_trees.R&gt;</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">12:00</td>
@@ -287,25 +306,30 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td style="text-align: right;">1:00</td>
-<td style="text-align: left;">Cross Validation and Parameter Tuning</td>
-<td style="text-align: left;">slides, code</td>
+<td style="text-align: left;">Hyperparameter Tuning</td>
+<td style="text-align: left;"><a href="content/slides/06_hyperparameter_tuning.pdf">06_hyperparameter_tuning.pdf</a></td>
 </tr>
 <tr class="even">
+<td style="text-align: right;">1:30</td>
+<td style="text-align: left;">[Coding Session] Hyperparameter Tuning</td>
+<td style="text-align: left;">&lt;06_hyperparameter_tuning.R&gt;</td>
+</tr>
+<tr class="odd">
 <td style="text-align: right;">2:30</td>
 <td style="text-align: left;">[Break]</td>
 <td style="text-align: left;"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: right;">2:45</td>
-<td style="text-align: left;">Class Imbalance</td>
-<td style="text-align: left;">slides, code</td>
+<td style="text-align: left;">Basic Neural Networks</td>
+<td style="text-align: left;"><a href="content/slides/07_nn.pdf">07_nn.pdf</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3:00</td>
+<td style="text-align: left;">[Coding Session] Basic Neural Networks</td>
+<td style="text-align: left;">&lt;07_nn.R&gt;</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">3:15</td>
-<td style="text-align: left;">Basic Neural Networks</td>
-<td style="text-align: left;">slides, code</td>
-</tr>
-<tr class="odd">
 <td style="text-align: right;">4:00</td>
 <td style="text-align: left;">[End]</td>
 <td style="text-align: left;"></td>
