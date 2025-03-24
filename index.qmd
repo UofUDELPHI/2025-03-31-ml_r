@@ -61,16 +61,16 @@ Note that the schedule below serves as a guideline. The start, end, and break ti
 
 | Time  | Topic     | Content |
 | ----:|:----|:---------------|
-| 9:00   | Introduction to Prediction Problems |   [01_intro.pdf](content/slides/01_intro.pdf) |
-| 9:30   | Linear Regression for Continuous Responses | [02_linear_regression.pdf](content/slides/02_linear_regression.pdf) |
-| 10:00   | Evaluating Continuous Response Predictions | [02_linear_regression.pdf](content/slides/02_linear_regression.pdf) |
+| 9:00   | Introduction to Prediction Problems |   [01_intro.pdf](slides/01_intro.pdf) |
+| 9:30   | Linear Regression for Continuous Responses | [02_linear_regression.pdf](slides/02_linear_regression.pdf) |
+| 10:00   | Evaluating Continuous Response Predictions | [02_linear_regression.pdf](slides/02_linear_regression.pdf) |
 | 10:30   | [Break] |   |   
 | 10:45   | [Coding Session] Linear Regression for Continuous Responses | <02_linear_regression.R> |
-| 11:30   | Data Preprocessing | [03_data_preprocessing.pdf](content/slides/03_data_preprocessing.pdf) |
+| 11:30   | Data Preprocessing | [03_data_preprocessing.pdf](slides/03_data_preprocessing.pdf) |
 | 12:00  | [Lunch] | |     |
 | 1:00   | [Coding Session] Data Preprocessing | <03_data_preprocessing.R> |
-| 1:45   | Logistic Regression for Predicting Binary Responses | [04_binary_Responses.pdf](content/slides/04_binary_responses.pdf) |
-| 2:00   | Evaluating Binary Responses Predictions | [04_binary_Responses.pdf](content/slides/04_binary_responses.pdf) |
+| 1:45   | Logistic Regression for Predicting Binary Responses | [04_binary_Responses.pdf](slides/04_binary_responses.pdf) |
+| 2:00   | Evaluating Binary Responses Predictions | [04_binary_Responses.pdf](slides/04_binary_responses.pdf) |
 | 2:30   | [Break] | |    
 | 2:45   | [Coding Session] Logistic Regression and Evaluation Binary Response Predictions | <04_binary_Responses.R> |
 | 4:00   | [End] |  |  
@@ -82,15 +82,15 @@ Note that the schedule below serves as a guideline. The start, end, and break ti
 
 | Time   | Topic           | Content
 | ----:|:----|:---------------|
-| 9:00    | Decision Trees and Random Forest |  [05_decision_trees.pdf](content/slides/05_decision_trees.pdf) |
-| 10:00    | XGBoost  | [05_decision_trees.pdf](content/slides/05_decision_trees.pdf) |
-| 10:15    | Variable Importance  | [05_decision_trees.pdf](content/slides/05_decision_trees.pdf) |
+| 9:00    | Decision Trees and Random Forest |  [05_decision_trees.pdf](slides/05_decision_trees.pdf) |
+| 10:00    | XGBoost  | [05_decision_trees.pdf](slides/05_decision_trees.pdf) |
+| 10:15    | Variable Importance  | [05_decision_trees.pdf](slides/05_decision_trees.pdf) |
 | 10:30   | [Break] |   | 
 | 10:15    | [Coding Session] Decision Tree Algorithms | <05_decision_trees.R> |
 | 12:00   | [Lunch] |   |   
-| 1:00   | Hyperparameter Tuning | [06_hyperparameter_tuning.pdf](content/slides/06_hyperparameter_tuning.pdf) | 
+| 1:00   | Hyperparameter Tuning | [06_hyperparameter_tuning.pdf](slides/06_hyperparameter_tuning.pdf) | 
 | 1:30   | [Coding Session] Hyperparameter Tuning | <06_hyperparameter_tuning.R> | 
 | 2:30   | [Break] |   |   
-| 2:45   | Basic Neural Networks | [07_nn.pdf](content/slides/07_nn.pdf) |
+| 2:45   | Basic Neural Networks | [07_nn.pdf](slides/07_nn.pdf) |
 | 3:00   | [Coding Session] Basic Neural Networks | <07_nn.R> |
 | 4:00  | [End] |   |   
