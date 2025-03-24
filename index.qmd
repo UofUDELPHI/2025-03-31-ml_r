@@ -86,7 +86,7 @@ Note that the schedule below serves as a guideline. The start, end, and break ti
 | 10:00    | XGBoost  | [05_decision_trees.pdf](slides/05_decision_trees.pdf) |
 | 10:15    | Variable Importance  | [05_decision_trees.pdf](slides/05_decision_trees.pdf) |
 | 10:30   | [Break] |   | 
-| 10:15    | [Coding Session] Decision Tree Algorithms | <05_decision_trees.R> |
+| 10:45    | [Coding Session] Decision Tree Algorithms | <05_decision_trees.R> |
 | 12:00   | [Lunch] |   |   
 | 1:00   | Hyperparameter Tuning | [06_hyperparameter_tuning.pdf](slides/06_hyperparameter_tuning.pdf) | 
 | 1:30   | [Coding Session] Hyperparameter Tuning | <06_hyperparameter_tuning.R> | 
