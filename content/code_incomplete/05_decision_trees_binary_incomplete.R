@@ -184,7 +184,7 @@ nhanes_recipe <- recipe(healthcare_expenses_1k ~ .,
 # compute variable importance for RF model with extract_fit_parsnip() and vip()
 
 
-# compute variable importance for XGB model
+# compute variable importance for XGB model with extract_fit_parsnip() and vip()
 
 
 

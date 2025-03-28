@@ -86,6 +86,7 @@ set.seed(123)
 # Define a grid of RF hyperparameter values using grid_latin_hypercube()
 
 
+
 # Define a grid of XGB hyperparameter values using grid_latin_hypercube()
 
 
@@ -93,7 +94,7 @@ set.seed(123)
 
 # Workflows for tuned specifications ------------------------------------------
 
-# Define an rf workflow
+# Define a rf workflow
 
 
 # Define an xgb workflow
@@ -134,7 +135,7 @@ set.seed(123)
 # Fit all models ------------------------------------------------------------ #
 # --------------------------------------------------------------------------- #
 
-# Default model specifications for comparison ---------------------------------
+# Define default model specifications for comparison --------------------------
 # specify a logistic regression model (& set engine and mode)
 
 
@@ -160,6 +161,7 @@ set.seed(123)
 
 
 # define an XGB workflow (add recipe and model spec)
+
 
 
 # define a tuned XGB workflow (use finalize_workflow)

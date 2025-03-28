@@ -36,14 +36,26 @@ subtitle: "University of Utah"
 
 ## Resources
 
+### Books and websites
+
+[**tidymodels.org**](https://www.tidymodels.org/). The official tidymodels website full of helpful tutorials and documentation.
+
+[**Tidy Modeling with R**](https://www.tmwr.org/) by Max Kuhn and Julia Silge. A great read to get familiar with everything there is to do in the tidymodels ecosystem.
+
+[**Efficient Machine Learning with R**](https://emlwr.org/) by Simon P Couch. Lots of great tips for speeding up your tidymodels code once you get a little more advanced.
+
+
 
 ### Posit Cloud
 
-A Posit Cloud workspace will be set up prior to the workshop for those who cannot (or prefer not to) install applications on their laptop. Check back before the workshop for the link to the workspace.
+A Posit Cloud workspace will be set up prior to the workshop for those who cannot (or prefer not to) install applications on their laptop. 
+
+You will need to create a posit cloud account if you do not already have one.
+
+[Click here to access the posit cloud workspace](https://posit.cloud/spaces/633199/join?access_code=AtBQM0GAqO90jL5cJ04_QA2OJ4BtXYj_YjF3_Pod) for this workshop.
 
 
 ### Download files and data
-
 
 If you are working in RStudio locally (rather than using posit cloud, above) [click here](content.zip "download") to download all of the .R code scripts and data files we will be using throughout the workshop. 
 

@@ -102,7 +102,7 @@ rf_grid <- grid_latin_hypercube(
   min_n(),
   finalize(mtry(), select(nhanes_health_train_preprocessed, 
                           -SEQN, -healthcare_expenses_1k)),
-  size = 16 # number of combinations
+  size = 9 # number of combinations
 )
 
 # Define a grid of XGB hyperparameter values using grid_latin_hypercube()
@@ -112,7 +112,7 @@ xgb_grid <- grid_latin_hypercube(
   finalize(mtry(), select(nhanes_health_train_preprocessed, 
                           -SEQN, -healthcare_expenses_1k)),
   learn_rate(),
-  size = 16
+  size = 9
 )
 
 
